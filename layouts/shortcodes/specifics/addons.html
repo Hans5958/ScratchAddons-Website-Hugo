@@ -1,0 +1,15 @@
+<div class="card-columns">
+	{{ range $.Site.Data.addons }}
+		<div class="card">
+			<!-- <img src="{{ substr .image 1 }}" class="card-img-top" alt="{{ .name }}"> -->
+			{{ if (fileExists (delimit (slice "static" .image) "")) -}}
+				<img src="{{ .image }}" class="card-img-top" alt="{{ .name }}">
+			{{- end }}
+			<div class="card-body">
+				<h5 class="card-title">{{ .name }}</h5>
+				<h6 class="card-subtitle mb-2 text-muted">{{ .id }}</h6>
+				<p class="card-text">{{ .description }}</p>
+			</div>
+		</div>
+	{{ end }}
+</div>
