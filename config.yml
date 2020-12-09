@@ -37,6 +37,11 @@ markup:
     ordered: false
     startLevel: 2
 
+minify:
+  tdewolff:
+    html:
+      keepWhitespace: true
+
 # TEMPORARY
 
 params:
