@@ -368,3 +368,24 @@ body.dark,extension-styled {
 	}
 	
 }
+
+article {
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 1.5rem;
+        margin-bottom: 1rem
+    }
+
+    blockquote, details, dl, ol, p, pre, table, ul {
+        margin-bottom: 1rem
+    }
+
+	h1:first-child {
+		margin-top: 0;
+	}
+
+    :last-child {
+        margin-bottom: 0
+    }
+
+}

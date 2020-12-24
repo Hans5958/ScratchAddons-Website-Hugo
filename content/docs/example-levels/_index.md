@@ -1,4 +1,5 @@
 ---
-title: Example leveled
-description: Example leveled
+title: Leveled Example
+description: Leveled Example
+weight: 3
 ---

@@ -1,5 +1,6 @@
 ---
-title: Documentation
+title: Real Docs Example
+weight: 3
 ---
 
 ```js

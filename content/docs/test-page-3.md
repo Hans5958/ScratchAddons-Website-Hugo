@@ -1,7 +1,7 @@
 ---
 title: Test Page 3
 description: Test Page 3
-weight: 1
+weight: 2
 ---
 
 ```js
