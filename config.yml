@@ -45,7 +45,7 @@ minify:
 # TEMPORARY
 params:
   author: "ScratchAddons"
-  authorImage: "/assets/images/logo.svg"
+  authorImage: "/assets/images/icon.svg"
   # description:          "The most popular HTML, CSS, and JS library in the world."
   # authors:              "Mark Otto, Jacob Thornton, and Bootstrap contributors"
   # social_image_path:    /docs/5.0/assets/brand/bootstrap-social.png
