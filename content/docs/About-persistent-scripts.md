@@ -1,5 +1,5 @@
 ---
-layout: default
+title: About persistent scripts
 ---
 # About persistent scripts
 ## What are they?
