@@ -1,7 +1,6 @@
 ---
 title: About persistent scripts
 ---
-# About persistent scripts
 ## What are they?
 Persistent scripts allow you to run JavaScript in the background! They're awesome to notify the user about stuff, or preload data so it's ready when the user needs it.
 
