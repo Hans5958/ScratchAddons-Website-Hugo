@@ -5,6 +5,6 @@ draft: false
 tags: ["Getting started"]
 categories: []
 author: GrahamSH
-authorImage: "/assets/images/icon.svg"
+authorimage: "/assets/images/icon.svg"
 ---
 # Hi
