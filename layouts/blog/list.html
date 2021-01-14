@@ -1,11 +1,16 @@
 {{ define "main" }}
 <h1>Blog</h1>
 <div class="container">
-    <div class="section">
-        <div class="content">
-            <h1>{{ .Title }}</h1>
-            {{ .Content }}
+ <div class="col">
+    {{ range .Pages }}
+    <div class="col-1">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <div class="">
+            {{ .Summary }}
         </div>
     </div>
+    {{ end }}
+</div>
+
 </div>
 {{ end }}
