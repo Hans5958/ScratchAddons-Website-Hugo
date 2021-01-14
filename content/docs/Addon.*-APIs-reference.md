@@ -1,5 +1,5 @@
 ---
-layout: default
+title: Addon.* APIs reference
 ---
 ## addon.self
 **Available in persistent scripts.**  
