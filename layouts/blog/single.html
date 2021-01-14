@@ -1,6 +1,20 @@
 {{ define "main" }}
    <h1>{{ .Title }}</h1>
     <div class="container">
+         <div class="">
+    <div class="col is-vcentered is-mobile">
+      {{ with .Site.Params.authorImage }}
+      <div class="col is-narrow">
+        <img src="{{ . }}" class="">
+      </div>
+      {{ end }}
+      <div class="col">
+        <p>{{ .Site.Params.Author }}</p>
+        <p><time>{{ .PublishDate.Format "January 2, 2006" }}</time> | 
+            {{ .ReadingTime }} {{ if eq .ReadingTime 1 }} minute {{ else }} minutes {{ end }}</p>
+      </div>
+    </div>
+
       {{ .Content }}
     </div>
 {{ end }}
