@@ -1,5 +1,5 @@
 ---
-layout: default
+title: Design
 ---
 ## Icons
 We use iconify UIL (Unicons) icons. See them at https://iconify.design/icon-sets/uil/. Please only use icons from this set unless you have explicit permission to do so. When adding an icon, download it to ``/images/icons/iconname.svg``. 
