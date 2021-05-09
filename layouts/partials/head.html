@@ -1,6 +1,6 @@
 <!-- Title and Meta -->
 
-<title>{{ if ne .Title "Index" }}{{ .Title }} - {{ end }}Scratch Addons</title>
+<title>{{ if ne .Title "Index" }}{{ .Title }} - {{ end }}{{ T "Global.ScratchAddons" }}</title>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="description" content="{{ .Description }}" />
@@ -9,24 +9,24 @@
 
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://scratchaddons.github.io{{ .File.Dir }}">
-<meta property="og:title" content='{{ if ne .Title "Index" }}{{ .Title }}{{ else }}Scratch Addons{{ end }}' />
+<meta property="og:title" content='{{ if ne .Title "Index" }}{{ .Title }}{{ else }}{{ T "Global.ScratchAddons" }}{{ end }}' />
 <meta property="og:description" content="{{ .Description }}">
-<meta property="og:site_name" content="Scratch Addons" />
+<meta property="og:site_name" content='{{ T "Global.ScratchAddons" }}' />
 <meta property="og:locale" content="en_US" />
 <meta property="og:image" content="https://scratchaddons.com/assets/images/icon-square.png" />
 <meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="384" />
 <meta property="og:image:height" content="384" />
-<meta property="og:image:alt" content="Scratch Addons logo /">
+<meta property="og:image:alt" content='{{ T "Global.LogoAlt" }}' />
 
 <meta name="twitter:card" content="summary" />
 <!-- <meta name="twitter:site" content="@ScratchAddons" />
 <meta name="twitter:creator" content="@ScratchAddons" /> -->
 <meta name="twitter:url" content="https://scratchaddons.github.io{{ .File.Dir }}" />
-<meta name="twitter:title" content='{{ if ne .Title "Index" }}{{ .Title }} - {{ end }}Scratch Addons' />
+<meta name="twitter:title" content='{{ if ne .Title "Index" }}{{ .Title }} - {{ end }}{{ T "Global.ScratchAddons" }}' />
 <meta name="twitter:description" content="{{ .Description }}" />
 <meta name="twitter:image" content="https://scratchaddons.com/assets/images/icon-square.png" />
-<meta name="twitter:image:alt" content="Scratch Addons logo" />
+<meta name="twitter:image:alt" content='{{ T "Global.LogoAlt" }}' />
 
 <!-- Require Script and Loading Page -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin />

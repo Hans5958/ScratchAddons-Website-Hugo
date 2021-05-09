@@ -1,19 +1,40 @@
-<a id="dark-toggle" class="btn" title="Click to toggle the dark theme." aria-label="Dark theme switch button" data-toggle="tooltip" data-placement="left"></a>
+<a id="dark-toggle" class="btn" title='{{ T "DarkTheme.Title" }}' aria-label='{{ T "DarkTheme.Label" }}' data-toggle="tooltip" data-placement="left"></a>
 
 <footer class="footer">
 	<div class="container">
-		<section>
-			<p>© 2020 Scratch Addons contributors</p>
-			<p>
-				Scratch Addons is not affiliated, associated, or in any way officially connected with Scratch, the Scratch Team, the Scratch Foundation, or any of its subsidiaries or its affiliates.
-			</p>
-			<p>Scratch Addons is licensed under the terms of GNU General Public License v3.0.</p>
+		<section class="footer-intro">
+			<a href="/" class="navbar-brand mb-3">
+				<img src="/assets/images/icon.svg" alt='{{ T "Global.ScratchAddons" }}' class="mr-2"></img>
+				<span>{{ T "Global.ScratchAddons" }}</span>
+			</a>
+			<iframe src="https://ghbtns.com/github-btn.html?user=ScratchAddons&repo=ScratchAddons&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+			<iframe src="https://ghbtns.com/github-btn.html?user=ScratchAddons&repo=ScratchAddons&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 		</section>
 		<section>
-			<h3>Resources</h3>
-			<a href="https://github.com/ScratchAddons" rel="noopener">Organization</a>
-			<a href="https://github.com/ScratchAddons/ScratchAddons" rel="noopener">Repository</a>
-			<a href="https://github.com/ScratchAddons/ScratchAddons/wiki" rel="noopener">Documentation</a>
+			<h3>{{ T "Footer.Pages.Header" }}</h3>
+			<a href="/faq">{{ T "Footer.Pages.FAQ" }}</a>
+			<a href="/feedback">{{ T "Footer.Pages.Feedback" }}</a>
+			<a href="/contributors">{{ T "Footer.Pages.Contributors" }}</a>		
+			<a href="/changelog">{{ T "Footer.Pages.Changelog" }}</a>
+			<a href="/addons">{{ T "Footer.Pages.Addons" }}</a>
+		</section>
+		<section>
+			<h3>{{ T "Footer.Discuss.Header" }}</h3>
+			<a href="https://github.com/ScratchAddons/ScratchAddons/discussions" rel="noopener">{{ T "Footer.Discuss.Discussion" }}</a>
+			<a href="https://github.com/ScratchAddons/ScratchAddons/issues" rel="noopener">{{ T "Footer.Discuss.Issues" }}</a>
+			<a href="https://discord.gg/R5NBqwMjNc" rel="noopener">{{ T "Footer.Discuss.DiscordCom" }}</a>
+			<a href="https://discord.gg/Ak8sCDQ" rel="noopener">{{ T "Footer.Discuss.DiscordDev" }}</a>
+		</section>
+		<section>
+			<h3>{{ T "Footer.Resources.Header" }}</h3>
+			<a href="https://github.com/ScratchAddons" rel="noopener">{{ T "Footer.Resources.Organization" }}</a>
+			<a href="https://github.com/ScratchAddons/ScratchAddons" rel="noopener">{{ T "Footer.Resources.Repository" }}</a>
+			<a href="https://github.com/ScratchAddons/ScratchAddons/wiki" rel="noopener">{{ T "Footer.Resources.Documentation" }}</a>
+		</section>
+		<section class="w-100 mt-3">
+			<p>{{ T "Footer.Legal.Copyright" .Site.Params.copyright_year }}</p>
+			<p>{{ T "Footer.Legal.NoAffiliation" }}</p>
+			<p>{{ T "Footer.Legal.License" }}</p>
 		</section>
 	</div>
 </footer>
